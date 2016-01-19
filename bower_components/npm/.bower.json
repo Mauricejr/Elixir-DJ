@@ -1,0 +1,15 @@
+{
+  "name": "npm",
+  "homepage": "https://github.com/npm/npm",
+  "version": "3.5.3",
+  "_release": "3.5.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "v3.5.3",
+    "commit": "1f36b1514d25edf41a0b2a1398d6f343b45b91e0"
+  },
+  "_source": "git://github.com/npm/npm.git",
+  "_target": "~3.5.3",
+  "_originalSource": "npm",
+  "_direct": true
+}

@@ -1,0 +1,9 @@
+{application,dj,
+             [{description,"dj"},
+              {applications,[kernel,stdlib,elixir,logger,httpoison,quantum,
+                             quantum,extwitter]},
+              {mod,{'Elixir.DJ',[]}},
+              {registered,['Elixir.DJ.DJFile']},
+              {vsn,"0.0.1"},
+              {modules,['Elixir.DJ','Elixir.DJ.DJFile','Elixir.DJ.DJSup',
+                        'Elixir.DJ.DJSupervisor','Elixir.DJ.DJTwitter']}]}.
