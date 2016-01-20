@@ -16,7 +16,7 @@ defmodule DJ.DJTwitter do
 		end
 
 		def readFile do
-		    file = "/Users/mauriceubom/Documents/learnelixir/dj/lib/nowplaying_radiodj.txt"
+		    file = "/nowplaying_radiodj.txt"
 		    twitterStatue = readTwitterUpdateStateFile
 	        IO.puts twitterStatue
 
@@ -27,7 +27,7 @@ defmodule DJ.DJTwitter do
 		end
 
 		def readTwitterUpdateStateFile do
-		    file = "/Users/mauriceubom/Documents/learnelixir/dj/lib/nowplaying_twistter.txt"
+		    file = "/nowplaying_twistter.txt"
 		    
 		    case File.read(file) do
 		   		 {:ok, body}      -> body
