@@ -3,10 +3,10 @@
 use Mix.Config
 
 config :extwitter, :oauth, [
-   consumer_key: "LFcVMBt9J25rZ5DVVWuhHrHnJ",
-   consumer_secret: "SatdtHcIugKaAJOZBsPoXp8b5QVDleiRHeI8Tow1q3mwDjgj0Q",
-   access_token: "4079160977-oW0nxl7F66v8xMgXY1V1TE4BbaKCuTJmvIl2Z5R",
-   access_token_secret: "i6CmrIKFYPvAPuwvw65mK2ciKm4O6qvasiN29uzazi2Y4"
+   consumer_key: "",
+   consumer_secret: "",
+   access_token: "",
+   access_token_secret: ""
 ]
 
 config :quantum, cron: [
